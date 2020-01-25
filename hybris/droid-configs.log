@@ -1,0 +1,12 @@
+warning: Macro expanded in comment on line 160: %{name} contains ssu.ini file which is needed to build kickstarts
+
+No provider of 'pkgconfig(android-headers)' found.
+warning: Macro expanded in comment on line 160: %{name} contains ssu.ini file which is needed to build kickstarts
+
+error: Failed build dependencies:
+	pkgconfig(android-headers) is needed by droid-config-whyred-1-1.armv7hl
+	qt5-qttools-kmap2qmap is needed by droid-config-whyred-1-1.armv7hl
+	repomd-pattern-builder is needed by droid-config-whyred-1-1.armv7hl
+	ssu-kickstart-configuration is needed by droid-config-whyred-1-1.armv7hl
+Building target platforms: armv7hl-meego-linux
+Building for target armv7hl-meego-linux
